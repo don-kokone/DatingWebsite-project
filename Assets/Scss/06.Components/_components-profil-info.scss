@@ -1,0 +1,28 @@
+.c-profil {
+  border: 5px solid $color-yellow;
+  max-width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  align-items: center;
+  justify-content: center;
+
+  .c-profil__image {
+    padding: 25px;
+  }
+
+  .c-profil__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: oblique;
+    font-weight: bolder;
+    @include text-size;
+
+  }
+
+  .c-profil__poem {
+    font-style: italic;
+  }
+}
